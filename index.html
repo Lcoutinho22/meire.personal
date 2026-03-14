@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Meire Pimenta | Personal Trainer Especialista 40+</title>
+    <meta name="description" content="Personal Trainer especialista em mulheres 40+, menopausa e emagrecimento. Transforme seu corpo com treinos de força e metodologia exclusiva desenvolvida por Meire Pimenta.">
+    <meta name="keywords" content="Personal Trainer, Treino para Mulheres, Menopausa, Emagrecimento, Treino online, Consultoria Fitness, Meire Pimenta">
+    <meta name="author" content="Meire Pimenta">
+    <meta property="og:title" content="Meire Pimenta | Personal Trainer Especialista 40+">
+    <meta property="og:description" content="Consultoria fitness integrada. Alinhando treino, mindset e movimento para resultados duradouros em mulheres 40+.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://meirepimenta.com.br/">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="share-container">
+        <button class="share-toggle" onclick="toggleShareMenu()" aria-label="Compartilhar página"><i class="fas fa-share-alt"></i></button>
+        <div class="share-menu" id="shareMenu">
+            <a href="#" onclick="sharePage('whatsapp')" aria-label="Compartilhar no WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="#" onclick="sharePage('facebook')" aria-label="Compartilhar no Facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#" onclick="sharePage('twitter')" aria-label="Compartilhar no Twitter"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#" onclick="sharePage('linkedin')" aria-label="Compartilhar no LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a href="#" onclick="sharePage('tiktok')" aria-label="Compartilhar no TikTok"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+    </div>
+
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema"><i class="fas fa-sun"></i></button>
+
+    <div class="lang-container">
+        <button class="lang-toggle" onclick="toggleLangMenu()" aria-label="Alterar idioma / Change language"><i class="fas fa-globe"></i></button>
+        <div class="lang-menu" id="langMenu">
+            <a href="#" onclick="changeLanguage('pt')" aria-label="Português">PT</a>
+            <a href="#" onclick="changeLanguage('en')" aria-label="English">EN</a>
+            <a href="#" onclick="changeLanguage('es')" aria-label="Español">ES</a>
+        </div>
+    </div>
+
+    <header class="profile-section reveal">
+        <img src="./image/logo-branca (1).jpeg" alt="Logo Meire Pimenta Personal Trainer" class="profile-img-top">
+        <h1>Meire Pimenta</h1>
+        <h2>Personal Trainer</h2>
+        <p class="bio-text" data-i18n="bio">Consultoria fitness integrada. Alinhando treino, mindset e movimento para resultados duradouros.</p>
+        
+        <div class="action-grid">
+            <a href="https://wa.me/5519982729585" class="btn-action" aria-label="Falar pelo WhatsApp"><i class="fab fa-whatsapp"></i> <span data-i18n="btnWhats">Falar Agora</span></a>
+            <a href="#planos" class="btn-action" aria-label="Ver os planos de treinamento"><i class="fas fa-clipboard-list"></i> <span data-i18n="btnPlans">Ver Planos</span></a>
+        </div>
+    </header>
+
+    <main>
+        <section aria-labelledby="sobre-titulo" class="reveal">
+            <div class="section-header">
+                <h3 id="sobre-titulo" data-i18n="titleAbout">Sobre a Treinadora <span class="swipe-hint"><i class="fas fa-arrows-alt-h"></i> deslize</span></h3>
+            </div>
+            
+            <div class="carousel-container mb-40">
+                <div class="carousel-track-manual about-track-aligned">
+                    
+                    <article class="about-card">
+                        <img src="./image/perfil.jpeg" alt="Foto de Meire Pimenta" class="about-profile-pic">
+                        <div class="about-content">
+                            <p class="about-text">
+                                Sou <span class="about-highlight">Meire Pimenta</span>, 50 anos, Personal Trainer e Instrutora de Yoga. Formada em Bacharelado em Educação Física e pós-graduada em Atividade Física, Saúde e Envelhecimento.
+                            </p>
+                            <p class="about-text">
+                                Trabalho ajudando <span class="about-highlight">mulheres 40+</span> a treinarem com segurança e inteligência, especialmente nas fases de perimenopausa e menopausa, com foco em saúde, força e emagrecimento.
+                            </p>
+                            <p class="about-text mb-0">
+                                Também atuo com grupos especiais, como pré e pós-bariátrica. Acredito que o exercício vai muito além da estética: <span class="about-highlight">ele transforma a autoestima, a saúde e a qualidade de vida.</span> 💪✨
+                            </p>
+                            <div class="about-stats">
+                                <div class="stat-item">
+                                    <div class="stat-number">+10</div>
+                                    <div class="stat-label">Anos Exp.</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">+800</div>
+                                    <div class="stat-label">Alunos</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="about-card">
+                        <img src="./image/metodologia.jpeg" alt="Metodologia Meire Pimenta" class="about-profile-pic">
+                        <h4 class="methodology-title">Minha Metodologia</h4>
+                        <div class="about-content">
+                            <p class="about-text">
+                                “Minha metodologia é baseada em treinamento personalizado, respeitando a fase de vida e as necessidades de cada mulher. Trabalho com exercícios de força, mobilidade e condicionamento físico, com foco em saúde, emagrecimento e qualidade de vida.”
+                            </p>
+                            <p class="about-text mb-0">
+                                “Tenho atenção especial às <span class="about-highlight">mulheres 40+</span>, considerando as mudanças da perimenopausa e menopausa, além de atuar com grupos especiais como pré e pós-bariátrica, sempre priorizando segurança, evolução e bem-estar.”
+                            </p>
+                            <div class="emoji-icon">💪✨</div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="metodo-titulo" class="reveal">
+            <div class="section-header mt-40">
+                <h3 id="metodo-titulo" data-i18n="titleMethod">O Método</h3>
+            </div>
+            <article class="metodo-informacao">
+                <h4 class="method-box-title">
+                    <i class="fas fa-fire"></i> Metamorfose 40+
+                </h4>
+                <p class="method-lead">
+                    Transformando o corpo da mulher após os 40 com ciência, estratégia e movimento.
+                </p>
+                <p class="method-subtitle-sm">
+                    Proposta do método:
+                </p>
+                <p class="method-desc">
+                    Um programa de treinamento estratégico criado para mulheres 40+ que desejam:
+                </p>
+                <ul class="method-list">
+                    <li>
+                        <i class="fas fa-check"></i> Reduzir gordura corporal
+                    </li>
+                    <li>
+                        <i class="fas fa-check"></i> Recuperar definição muscular
+                    </li>
+                    <li>
+                        <i class="fas fa-check"></i> Fortalecer o corpo na menopausa
+                    </li>
+                    <li class="last-item">
+                        <i class="fas fa-check"></i> Melhorar energia, autoestima e saúde
+                    </li>
+                </ul>
+            </article>
+
+            <div class="section-header mt-40"><h3 data-i18n="titlePillars">Os Pilares do Método</h3></div>
+            
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-icon"><i class="fas fa-venus"></i></div>
+                    <div class="pillar-content">
+                        <h5>Treino Estratégico Feminino</h5>
+                        <p>Exercícios pensados para o metabolismo da mulher 40+.</p>
+                    </div>
+                </div>
+                
+                <div class="pillar-card">
+                    <div class="pillar-icon"><i class="fas fa-dumbbell"></i></div>
+                    <div class="pillar-content">
+                        <h5>Força e Definição</h5>
+                        <p>Construção de massa muscular para combater flacidez e perda muscular.</p>
+                    </div>
+                </div>
+                
+                <div class="pillar-card">
+                    <div class="pillar-icon"><i class="fas fa-child"></i></div>
+                    <div class="pillar-content">
+                        <h5>Core e Abdômen Inteligente</h5>
+                        <p>Fortalecimento abdominal respeitando diástase e saúde lombar.</p>
+                    </div>
+                </div>
+                
+                <div class="pillar-card">
+                    <div class="pillar-icon"><i class="fas fa-fire-alt"></i></div>
+                    <div class="pillar-content">
+                        <h5>Metabolismo Ativo</h5>
+                        <p>Treinos que ajudam no emagrecimento e controle hormonal.</p>
+                    </div>
+                </div>
+                
+                <div class="pillar-card">
+                    <div class="pillar-icon"><i class="fas fa-leaf"></i></div>
+                    <div class="pillar-content">
+                        <h5>Consistência e Longevidade</h5>
+                        <p>Movimento para viver melhor, com saúde e autonomia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="planos" aria-labelledby="planos-titulo" class="reveal">
+            <div class="section-header mt-50">
+                <h3 id="planos-titulo" data-i18n="titlePresencial">Treinamento Presencial</h3>
+            </div>
+            <p class="section-subtitle">Acompanhamento VIP</p>
+            
+            <div class="carousel-container">
+                <div class="carousel-track-manual plans-track">
+                    
+                    <article class="plan-card">
+                        <div class="plan-title">2X SEMANA</div>
+                        <div class="plan-price">R$ 799,00<span>/mês</span></div>
+                        <div class="badge-40plus" style="margin-top:10px; margin-bottom:10px;">Apenas Mulheres 40+</div>
+                        <div class="plan-subtitle" style="margin-top:0;">8 Aulas Mensais</div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check-circle"></i> Treino 1 hora por dia</li>
+                            <li><i class="fas fa-check-circle"></i> Anamnese Inicial</li>
+                            <li><i class="fas fa-check-circle"></i> Avaliação Física</li>
+                            <li><i class="fas fa-check-circle"></i> Planilha Personalizada Treino Via App</li>
+                        </ul>
+                        <button onclick="escolherPlano('Presencial 2x Semana')" class="plan-btn" aria-label="Escolher plano presencial 2 vezes na semana">Quero esse</button>
+                    </article>
+
+                    <article class="plan-card featured">
+                        <div class="plan-badge">Mais Escolhido</div>
+                        <div class="plan-title">3X SEMANA</div>
+                        <div class="plan-price">R$ 999,90<span>/mês</span></div>
+                        <div class="badge-40plus" style="margin-top:10px; margin-bottom:10px;">Apenas Mulheres 40+</div>
+                        <div class="plan-subtitle" style="margin-top:0;">12 Aulas Mensais</div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check-circle"></i> Treino 1 hora por dia</li>
+                            <li><i class="fas fa-check-circle"></i> Aulas personalizadas</li>
+                            <li><i class="fas fa-check-circle"></i> Anamnese Inicial</li>
+                            <li><i class="fas fa-check-circle"></i> Avaliação Física</li>
+                            <li><i class="fas fa-check-circle"></i> Planilha Personalizada Treino Via App</li>
+                        </ul>
+                        <button onclick="escolherPlano('Presencial 3x Semana')" class="plan-btn" aria-label="Escolher plano presencial 3 vezes na semana">Quero esse</button>
+                    </article>
+
+                    <article class="plan-card">
+                        <div class="plan-title">5X SEMANA</div>
+                        <div class="plan-price">R$ 1300,00<span>/mês</span></div>
+                        <div class="badge-40plus" style="margin-top:10px; margin-bottom:10px;">Apenas Mulheres 40+</div>
+                        <div class="plan-subtitle" style="margin-top:0;">20 Aulas Mensais</div>
+                        <ul class="plan-features">
+                            <li><i class="fas fa-check-circle"></i> Treino 1 hora por dia</li>
+                            <li><i class="fas fa-check-circle"></i> Anamnese Inicial</li>
+                            <li><i class="fas fa-check-circle"></i> Avaliação Física</li>
+                            <li><i class="fas fa-check-circle"></i> Planilha Personalizada Treino Via App</li>
+                        </ul>
+                        <button onclick="escolherPlano('Presencial 5x Semana')" class="plan-btn" aria-label="Escolher plano presencial 5 vezes na semana">Quero esse</button>
+                    </article>
+
+                </div>
+            </div>
+            
+            <div class="payment-info">
+                <p>Pagamentos via PIX ou DINHEIRO na data de início.<br>Vencimentos na data do início do Plano.</p>
+                <p class="payment-alert">Aulas canceladas ou faltas não serão repostas.</p>
+            </div>
+        </section>
+
+        <section aria-labelledby="consultoria-online-titulo" class="reveal">
+            <div class="section-header mt-50">
+                <h3 id="consultoria-online-titulo" data-i18n="titleOnline">Consultoria Online</h3>
+            </div>
+            <p class="section-subtitle">Acompanhamento Personalizado</p>
+            
+            <article class="benefits-box">
+                <p class="benefits-title">Benefícios</p>
+                <ul class="benefits-list">
+                    <li><i class="fas fa-check-circle"></i>Praticidade, com treino organizado no celular</li>
+                    <li><i class="fas fa-check-circle"></i>Treinos personalizados para sua rotina e nível</li>
+                    <li><i class="fas fa-check-circle"></i>Economia sem abrir mão de acompanhamento profissional</li>
+                    <li><i class="fas fa-check-circle"></i>Treino feito pra você</li>
+                </ul>
+            </article>
+
+            <div class="carousel-container">
+                <div class="carousel-track-manual plans-track">
+                    
+                    <article class="plan-card">
+                        <div class="plan-title">ESSENCIAL</div>
+                        <div class="gender-highlight online">Mensal</div>
+                        <div class="plan-price">R$ 159,99</div>
+                        <div class="badge-40plus" style="margin-top:10px; margin-bottom:10px;">Apenas Mulheres 40+</div>
+                        <ul class="plan-features mt-15" style="margin-top:0 !important;">
+                            <li><i class="fas fa-check-circle"></i> Treino Personalizado</li>
+                            <li><i class="fas fa-check-circle"></i> Anamnese Completa</li>
+                            <li><i class="fas fa-check-circle"></i> Avaliação Física</li>
+                            <li><i class="fas fa-check-circle"></i> Planilha Personalizada Treino Via App</li>
+                        </ul>
+                        <button onclick="escolherPlano('Online Essencial Mensal')" class="plan-btn" aria-label="Assinar Consultoria Essencial Mensal">Assinar Essencial</button>
+                    </article>
+
+                    <article class="plan-card featured">
+                        <div class="plan-badge">O Melhor Custo/Benefício</div>
+                        <div class="plan-title">PREMIUM</div>
+                        <div class="gender-highlight online">Trimestral</div>
+                        <div class="plan-price">R$ 399,99</div>
+                        <div class="badge-40plus" style="margin-top:10px; margin-bottom:10px;">Apenas Mulheres 40+</div>
+                        <ul class="plan-features mt-15" style="margin-top:0 !important;">
+                            <li><i class="fas fa-check-circle"></i> <strong>Tudo do plano Essencial</strong></li>
+                            <li><i class="fas fa-check-circle"></i> Acompanhamento Semanal</li>
+                            <li><i class="fas fa-check-circle"></i> Feedback</li>
+                            <li><i class="fas fa-check-circle"></i> 3 planilhas ao longo dos 3 meses (Inicial + 2 atualizações)</li>
+                        </ul>
+                        <button onclick="escolherPlano('Online Premium Trimestral')" class="plan-btn" aria-label="Assinar Consultoria Premium Trimestral">Assinar Premium</button>
+                    </article>
+
+                </div>
+            </div>
+            
+            <div class="payment-info">
+                <p>Pagamentos via PIX ou DINHEIRO na data de início.<br>Vencimentos na data do início do Plano.</p>
+                <p class="payment-alert-sm"><i class="fab fa-whatsapp"></i> Suporte integral via WhatsApp</p>
+            </div>
+        </section>
+
+        <section aria-labelledby="outros-servicos-titulo" class="reveal">
+            <div class="section-header mt-50">
+                <h3 id="outros-servicos-titulo" data-i18n="titleServices">Outros Serviços</h3>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-running" aria-hidden="true"></i></div>
+                    <h4>Funcional</h4>
+                </div>
+                
+                <div class="service-card highlight-service">
+                    <div class="service-icon"><i class="fas fa-spa" aria-hidden="true"></i></div>
+                    <h4>Yoga</h4>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-dumbbell" aria-hidden="true"></i></div>
+                    <h4>GAP</h4>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="feedback-titulo" class="reveal">
+            <div class="section-header mt-50">
+                <h3 id="feedback-titulo" data-i18n="titleFeedback">O Que Dizem</h3>
+            </div>
+            <div class="carousel-wrapper-auto">
+                <div class="carousel-track-feedback text-feedback-track">
+                    
+                    <article class="feedback-text-card">
+                        <div class="feedback-speech-bubble">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p data-i18n="feed1">Vc entrou na minha vida de maneira encantadora, além de ser um profissional maravilhosa uma mulher incrível 😍</p>
+                        </div>
+                        <div class="feedback-author-box">
+                            <img src="./image/perfil.jpeg" alt="Alexandra Reis" class="feedback-avatar">
+                            <div class="feedback-author-name">Alexandra Reis</div>
+                        </div>
+                    </article>
+
+                    <article class="feedback-text-card">
+                        <div class="feedback-speech-bubble">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p data-i18n="feed2">Melhor personal que eu já tive e me ajuda não só E me ajuda não so com fisico, mas tambem nas crises de ansiedade ❤️</p>
+                        </div>
+                        <div class="feedback-author-box">
+                            <img src="./image/perfil.jpeg" alt="Thaiane" class="feedback-avatar">
+                            <div class="feedback-author-name">Thaiane</div>
+                        </div>
+                    </article>
+
+                    <article class="feedback-text-card">
+                        <div class="feedback-speech-bubble">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p data-i18n="feed3">Parabéns pelo Dom de cuidar das pessoas com tanto profissionalismo e o melhor de tudo com AMOR ❤️</p>
+                        </div>
+                        <div class="feedback-author-box">
+                            <img src="./image/perfil.jpeg" alt="Silvana Siqueira" class="feedback-avatar">
+                            <div class="feedback-author-name">Silvana Siqueira</div>
+                        </div>
+                    </article>
+                    
+                    <!-- Duplicated for infinite scroll illusion -->
+                    <article class="feedback-text-card" aria-hidden="true">
+                        <div class="feedback-speech-bubble">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>Vc entrou na minha vida de maneira encantadora, além de ser um profissional maravilhosa uma mulher incrível 😍</p>
+                        </div>
+                        <div class="feedback-author-box">
+                            <img src="./image/perfil.jpeg" alt="Alexandra Reis" class="feedback-avatar">
+                            <div class="feedback-author-name">Alexandra Reis</div>
+                        </div>
+                    </article>
+
+                    <article class="feedback-text-card" aria-hidden="true">
+                        <div class="feedback-speech-bubble">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>Melhor personal que eu já tive e me ajuda não só E me ajuda não so com fisico, mas tambem nas crises de ansiedade ❤️</p>
+                        </div>
+                        <div class="feedback-author-box">
+                            <img src="./image/perfil.jpeg" alt="Thaiane" class="feedback-avatar">
+                            <div class="feedback-author-name">Thaiane</div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="avaliacao-titulo" class="reveal">
+            <div class="section-header mt-50">
+                <h3 id="avaliacao-titulo" data-i18n="titleEvaluation">Pré-Avaliação Gratuita</h3>
+            </div>
+            <form class="schedule-form" onsubmit="event.preventDefault(); enviarAnamnese();">
+                <div class="form-group">
+                    <label class="form-label" for="clientName">Nome Completo</label>
+                    <input type="text" id="clientName" class="form-input" placeholder="Seu nome completo" required>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label" for="clientAge">Idade</label>
+                        <input type="number" id="clientAge" class="form-input" placeholder="Ex: 30" required min="10" max="100">
+                    </div>
+                     <div class="form-group">
+                        <label class="form-label" for="levelSelect">Experiência de Treino</label>
+                        <select id="levelSelect" class="form-select">
+                            <option value="Nunca treinei">Nunca treinei</option>
+                            <option value="Iniciante">Iniciante</option>
+                            <option value="Intermediário">Intermediário</option>
+                            <option value="Avançado">Avançado</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="planSelect">Plano Pretendido</label>
+                    <select id="planSelect" class="form-select">
+                        <option value="Ainda não sei">Ainda não sei / Quero recomendação</option>
+                        <option value="Presencial - 2x Semana">Presencial - 2x Semana</option>
+                        <option value="Presencial - 3x Semana">Presencial - 3x Semana</option>
+                        <option value="Presencial - 5x Semana">Presencial - 5x Semana</option>
+                        <option value="Online - Essencial Mensal">Online - Essencial Mensal</option>
+                        <option value="Online - Premium Trimestral">Online - Premium Trimestral</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="healthInput">Possui lesões ou problemas de saúde?</label>
+                    <textarea id="healthInput" class="form-input" placeholder="Descreva aqui se tiver alguma restrição (opcional)"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="goalInput">Qual seu principal objetivo?</label>
+                     <textarea id="goalInput" class="form-input" placeholder="Ex: Quero emagrecer, definir o abdômen e melhorar a postura" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-schedule" aria-label="Enviar sua ficha para avaliação" data-i18n="btnSubmit">
+                    <i class="fab fa-whatsapp"></i> Enviar Pré-Avaliação
+                </button>
+            </form>
+        </section>
+
+        <section class="cta-final-container reveal" aria-label="Chamada para ação final">
+            <a href="https://wa.me/5519982729585" class="cta-final-box">
+                <div class="cta-final-title" data-i18n="ctaTitle">Comece Sua Transformação</div>
+                <p class="cta-final-sub" data-i18n="ctaSub">Agende sua avaliação e dê o primeiro passo hoje.</p>
+                <div class="cta-final-btn-inner" data-i18n="ctaBtn">
+                    <i class="fab fa-whatsapp"></i> Falar com a Treinadora
+                </div>
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer reveal">
+        <div class="footer-icons">
+            <a href="#" aria-label="Acessar Instagram de Meire Pimenta"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Acessar TikTok de Meire Pimenta"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="Acessar YouTube de Meire Pimenta"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>© 2026 Meire Pimenta Personal Trainer | Especialista em 40+</p>
+        <p class="footer-credits">Design fluido e dinâmico by Coutinho Tech</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
