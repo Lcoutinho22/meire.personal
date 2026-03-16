@@ -116,9 +116,10 @@ const i18n = {
         ctaTitle: "Comece Sua Transformação",
         ctaSub: "Agende sua avaliação e dê o primeiro passo hoje.",
         ctaBtn: '<i class="fab fa-whatsapp"></i> Falar com a Treinadora',
-        feed1: "Vc entrou na minha vida de maneira encantadora, além de ser um profissional maravilhosa uma mulher incrível 😍",
-        feed2: "Melhor personal que eu já tive e me ajuda não só E me ajuda não so com fisico, mas tambem nas crises de ansiedade ❤️",
-        feed3: "Parabéns pelo Dom de cuidar das pessoas com tanto profissionalismo e o melhor de tudo com AMOR ❤️"
+        feed1: "Eu comecei meio sem saber se ia dar resultado, mas fiquei surpresa com as mudanças no meu corpo! Além de me sentir mais leve e disposta, já consigo ver diferença real. O que mais gosto é que tudo é feito de forma simples e possível de manter. Seu acompanhamento faz muita diferença! Muito obrigada mesmo! 💛",
+        feed2: "Treinar com você faz toda a diferença! Sua dedicação, motivação e cuidado mostram o quanto você ama o que faz. Obrigada por me incentivar sempre a ir além.",
+        feed3: "Eu não tenho não amada Meire vc esta fazendo a diferença nos treinos que vc esta me dando. Realmente estou me sentindo bem, bem melhor. Agradecer a Deus por ter colocado vc no meu caminho amada Meire. E que Deus continue te abençoando infinitamente ❤️",
+        feed4: "Gostaria de expressar minha imensa gratidão pelo seu apoio e encorajamento. A sua orientação e experiência faz uma enorme diferença na minha vida. Tenho a melhor Personal Meire Pimenta ❤️💪🏻"
     },
     en: {
         badge40: "Women 40+ Only",
@@ -137,9 +138,10 @@ const i18n = {
         ctaTitle: "Start Your Transformation",
         ctaSub: "Schedule your evaluation and take the first step today.",
         ctaBtn: '<i class="fab fa-whatsapp"></i> Talk to the Trainer',
-        feed1: "You entered my life in a charming way, besides being a wonderful professional, an incredible woman 😍",
-        feed2: "Best personal trainer I've ever had, helps me not only physically but also with my anxiety attacks ❤️",
-        feed3: "Congratulations on the Gift of taking care of people with so much professionalism and best of all, with LOVE ❤️"
+        feed1: "I started kind of not knowing if it would work, but I was surprised by the changes in my body! Besides feeling lighter and more willing, I can already see a real difference. What I like most is that everything is done in a simple and possible-to-maintain way. Your support makes a big difference! Thank you very much! 💛",
+        feed2: "Training with you makes all the difference! Your dedication, motivation, and care show how much you love what you do. Thank you for always encouraging me to go further.",
+        feed3: "I have no words beloved Meire, you are making a difference in the workouts you are giving me. I really am feeling good, much better. Thank God for putting you in my path beloved Meire. And may God continue to bless you infinitely ❤️",
+        feed4: "I would like to express my immense gratitude for your support and encouragement. Your guidance and experience make a huge difference in my life. I have the best Personal trainer Meire Pimenta ❤️💪🏻"
     },
     es: {
         badge40: "Solo Mujeres 40+",
@@ -158,9 +160,10 @@ const i18n = {
         ctaTitle: "Comienza Tu Transformación",
         ctaSub: "Programa tu evaluación y da el primer paso hoy.",
         ctaBtn: '<i class="fab fa-whatsapp"></i> Hablar con la Entrenadora',
-        feed1: "Entraste en mi vida de una manera encantadora, además de ser una profesional maravillosa y una mujer increíble 😍",
-        feed2: "La mejor entrenadora personal que he tenido, me ayuda no solo en lo físico, sino también en mis crisis de ansiedad ❤️",
-        feed3: "Felicidades por el Don de cuidar a las personas con tanto profesionalismo y lo mejor de todo, con AMOR ❤️"
+        feed1: "Empecé sin saber si daría resultado, ¡pero me sorprendieron los cambios en mi cuerpo! Además de sentirme más ligera y dispuesta, ya veo una diferencia real. Lo que más me gusta es que todo se hace de manera simple y posible de mantener. ¡Tu acompañamiento hace mucha diferencia! ¡Muchas gracias! 💛",
+        feed2: "¡Entrenar contigo hace toda la diferencia! Tu dedicación, motivación y cuidado muestran cuánto amas lo que haces. Gracias por animarme siempre a ir más allá.",
+        feed3: "No tengo palabras amada Meire, estás haciendo la diferencia en los entrenamientos que me das. Realmente me siento bien, mucho mejor. Agradezco a Dios por haberte puesto en mi camino amada Meire. Y que Dios te siga bendiciendo infinitamente ❤️",
+        feed4: "Me gustaría expresar mi inmensa gratitud por tu apoyo y aliento. Tu orientación y experiencia hacen una gran diferencia en mi vida. Tengo la mejor entrenadora personal Meire Pimenta ❤️💪🏻"
     }
 };
 
